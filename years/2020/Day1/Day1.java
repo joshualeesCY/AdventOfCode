@@ -1,4 +1,4 @@
-package solutions;
+package Day1;
 
 import java.util.Scanner;
 import java.io.File;

@@ -1,4 +1,4 @@
-package solutions;
+package Day2;
 
 import java.util.Scanner;
 import java.io.File;
@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 public class Day2 {
     public static void main(String[] args) throws FileNotFoundException{
         
-        Scanner inFile = new Scanner(new File("inputs/2.in"));
+        Scanner inFile = new Scanner(new File("years/2020/Day2/2.in"));
         
         // TASK 1
         
@@ -47,7 +47,7 @@ public class Day2 {
         
         // TASK 2
         
-        Scanner inFile2 = new Scanner(new File("inputs/2.in"));
+        Scanner inFile2 = new Scanner(new File("years/2020/Day2/2.in"));
         
         int numValid2 = 0;
         while(inFile2.hasNext()) {
