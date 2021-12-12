@@ -1,4 +1,4 @@
-package solutions;
+package Day5;
 
 import java.util.*;
 import java.io.*;
@@ -6,7 +6,7 @@ import java.io.*;
 public class Day5 {
     
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner inFile = new Scanner(new File("inputs/5.in"));
+        Scanner inFile = new Scanner(new File("years/2021/Day5/5.in"));
         
         int x1;
         int x2;

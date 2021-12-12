@@ -1,4 +1,4 @@
-package solutions.queue;
+package Day9.queue;
 import java.util.*;
 /**
 * This Queue class implements queue capabilities (FIFO) using an array

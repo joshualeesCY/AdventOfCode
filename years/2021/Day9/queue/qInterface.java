@@ -1,4 +1,4 @@
-package solutions.queue;
+package Day9.queue;
 /**
 * This qInterface interface provides abstract methods for Queue to implement 
 * 

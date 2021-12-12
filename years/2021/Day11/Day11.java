@@ -1,6 +1,7 @@
 package Day11;
 
 import java.util.*;
+
 import java.io.*;
 
 public class Day11 {
@@ -133,8 +134,8 @@ public class Day11 {
     }
     
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner inFile = new Scanner(new File("11.in").getAbsolutePath());
-        
+        Scanner inFile = new Scanner(new File("years/2021/Day11/11.in"));
+    
         int[] point;
         final int STEPS = 100;
         
@@ -149,7 +150,7 @@ public class Day11 {
         inFile.close();
         grid = new int[r][c];
         
-        inFile = new Scanner(new File("11.in").getAbsolutePath());
+        inFile = new Scanner(new File("years/2021/Day11/11.in"));
         for (int i = 0; i < r; i++) {
             line = inFile.nextLine();
             for (int j = 0; j < c; j++) {

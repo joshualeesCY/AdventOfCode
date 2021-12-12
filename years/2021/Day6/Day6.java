@@ -1,4 +1,4 @@
-package solutions;
+package Day6;
 
 import java.util.*;
 import java.io.*;
@@ -9,7 +9,7 @@ import java.io.*;
 public class Day6 {
     
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner inFile = new Scanner(new File("inputs/6.in"));
+        Scanner inFile = new Scanner(new File("years/2021/Day6/6.in"));
         ArrayList<Integer> nums = new ArrayList<>();
         ArrayList<Integer> indexes = new ArrayList<>();
         ArrayList<Integer> prevIndexes = new ArrayList<>();

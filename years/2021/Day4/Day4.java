@@ -1,4 +1,4 @@
-package solutions;
+package Day4;
 
 import java.io.*;
 import java.util.*;
@@ -17,7 +17,7 @@ public class Day4 {
     
     public static void main(String[] args) throws FileNotFoundException {
         
-        Scanner inFile = new Scanner(new File("inputs/4.in"));
+        Scanner inFile = new Scanner(new File("years/2021/Day4/4.in"));
         int[] nums = {46,79,77,45,57,34,44,13,32,88,86,82,91,97,89,1,48,31,18,10,55,74,24,11,80,78,28,37,47,17,21,61,26,85,99,96,23,70,3,54,5,41,50,63,14,64,42,36,95,52,76,68,29,9,98,35,84,83,71,49,73,58,56,66,92,30,51,20,81,69,65,15,6,16,39,43,67,7,59,40,60,4,90,72,22,0,93,94,38,53,87,27,12,2,25,19,8,62,33,75};
         int[] drawn = new int[nums.length];
         
@@ -104,7 +104,7 @@ public class Day4 {
                 }
                 if (!winner) {
                     inFile.close();
-                    inFile = new Scanner(new File("inputs/4.in"));
+                    inFile = new Scanner(new File("years/2021/Day4/4.in"));
                 }
                 else {
                     break;
@@ -135,7 +135,7 @@ public class Day4 {
         int[] numToSolve = new int[100];
         
         inFile.close();
-        inFile = new Scanner(new File("inputs/4.in"));
+        inFile = new Scanner(new File("years/2021/Day4/4.in"));
         for (int i = 0; i < 100; i++) {
             for (int j = 0; j < 5; j++) {
                 for (int k = 0; k < 5; k++) {

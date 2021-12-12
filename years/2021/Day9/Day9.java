@@ -1,14 +1,14 @@
-package solutions;
+package Day9;
 
 import java.util.Scanner;
 import java.util.Arrays;
 import java.io.*;
-import solutions.queue.*;
+import Day9.queue.*;
 
 public class Day9 {
     
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner inFile = new Scanner(new File("inputs/9.in"));
+        Scanner inFile = new Scanner(new File("years/2021/Day9/9.in"));
         
         
         int r = 0;
@@ -22,7 +22,7 @@ public class Day9 {
         int[][] grid = new int[r][c];
         inFile.close();
         
-        inFile = new Scanner(new File("inputs/9.in"));
+        inFile = new Scanner(new File("years/2021/Day9/9.in"));
         
         String l = "";
         for(int i =0; i < r; i++) {

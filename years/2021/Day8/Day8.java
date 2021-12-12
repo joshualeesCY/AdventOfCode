@@ -1,4 +1,4 @@
-package solutions;
+package Day8;
 
 import java.util.*;
 import java.io.*;
@@ -12,7 +12,7 @@ public class Day8 {
     }
     
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner inFile = new Scanner(new File("inputs/8.in"));
+        Scanner inFile = new Scanner(new File("years/2021/Day8/8.in"));
         String[][] out = new String[200][4];
         String[][] in = new String[200][10];
         

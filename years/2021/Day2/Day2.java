@@ -1,4 +1,4 @@
-package solutions;
+package Day2;
 
 import java.util.*;
 import java.io.*;
@@ -9,7 +9,7 @@ public class Day2 {
         int horizontal = 0;
         int depth = 0;
         
-        Scanner inFile = new Scanner(new File("inputs/2.in"));
+        Scanner inFile = new Scanner(new File("years/2021/Day2/2.in"));
         
         // TASK 1
         
@@ -33,7 +33,7 @@ public class Day2 {
         inFile.close();
         // TASK 2
         
-        Scanner inFile2 = new Scanner(new File("inputs/2.in"));
+        Scanner inFile2 = new Scanner(new File("years/2021/Day2/2.in"));
         horizontal = 0;
         depth = 0;
         int aim = 0;

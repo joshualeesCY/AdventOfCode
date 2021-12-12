@@ -1,11 +1,11 @@
-package solutions;
+package Day10;
 
 import java.util.*;
 import java.io.*;
 
 public class Day10 {
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner inFile = new Scanner(new File("inputs/10.in"));
+        Scanner inFile = new Scanner(new FileReader("years/2021/Day10/10.in"));
         ArrayList<String> lines = new ArrayList<>();
         ArrayList<Character> chs = new ArrayList<>();
         ArrayList<String> theRest = new ArrayList<>();

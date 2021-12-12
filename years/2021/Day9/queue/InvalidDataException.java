@@ -1,4 +1,4 @@
-package solutions.queue;
+package Day9.queue;
 /**
 * This InvalidDataException class implements queue capabilities (FIFO) using an array
 *

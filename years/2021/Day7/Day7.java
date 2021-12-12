@@ -1,4 +1,4 @@
-package solutions;
+package Day7;
 
 import java.util.*;
 

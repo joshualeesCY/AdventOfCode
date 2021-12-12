@@ -7,7 +7,7 @@ import java.io.FileNotFoundException;
 public class Day1 {
     public static void main(String[] args) throws FileNotFoundException {
         
-        Scanner inFile = new Scanner(new File("inputs/1.in"));
+        Scanner inFile = new Scanner(new File("years/2020/Day1/1.in"));
         
         // TASK 1
         

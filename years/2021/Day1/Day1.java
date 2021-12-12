@@ -1,4 +1,4 @@
-package solutions;
+package Day1;
 
 import java.util.*;
 import java.io.*;
@@ -11,7 +11,7 @@ public class Day1 {
             intArr[i] = 0;
         }
         
-        Scanner inFile = new Scanner(new File("inputs/1.in"));
+        Scanner inFile = new Scanner(new File("years/2021/Day1/1.in"));
         
         // FIRST TASK
         
